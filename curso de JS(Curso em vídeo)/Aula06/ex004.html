@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso em vídeo JS</title>
+    <style>
+        body {
+            font: normal 15pt Arial;
+        }
+    </style>
+</head>
+<body>
+    
+    <script>
+
+       //tipos primitivos e comandos
+        alert('PROGRAMA PARA SABER A QUANTIDADE DE LETRAS QUE SEU NOME TEM')
+        alert('Apenas testando quebras de linha' + '\n' + 'legal isso' + '\n' + '\n' + 'Qual o sentido da vida?') //quebra de linha no alert com o '/n'
+        var nome = window.prompt('Qual é o seu nome?')
+       
+       // parte que aparecerá no HTML
+        document.write(`<strong>Seu nome tem ${nome.length} letras </strong>`) //o comando .length conta quantas letras foram utilizadas na palavra armazenada pela variavel
+        document.write('</br>') //quebra de linha
+        document.write('</br>') //quebra de linha
+        document.write(`Seu nome em MAIÚSCULO: ${nome.toUpperCase()}</br>`) //transforma as letras da variavel em MAIÚSCULAS e /br como quebra de linha
+        document.write(`Seu nome em minúsculo: ${nome.toLowerCase()}`) //transforma as letras da variavel em MINÚSCULAS
+  
+        document.write('</br>') //quebra de linha
+        document.write('</br>') //quebra de linha
+        document.write(`<strong>Seu nome tem ${nome.length} letras </strong>`) // O comando <strong></strong> do HTML trasforma o texto inserido nele em negrito
+    </script>
+
+</body>
+</html>

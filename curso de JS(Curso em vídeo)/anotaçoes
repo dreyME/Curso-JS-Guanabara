@@ -1,0 +1,17 @@
+Anotações do curso de JavaScript{
+
+Funções:
+	São ações executadas assim que sao chamadas ou em decorrência de algum evento
+	Uma função pode receber parâmetros e retornar um resultado
+
+function ação(param){
+	aaa
+	return res
+} 
+ação(5)
+      |_-> chamada
+
+
+
+
+}

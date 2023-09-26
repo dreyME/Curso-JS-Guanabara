@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROGRAMA DE RESULTADO DE SOMA</title>
+
+    <style>
+        body{
+            font: Normal 20pt Arial;
+        }
+        div#background{
+            margin-top: 20px;
+            
+        }
+
+    </style>
+
+
+</head>
+<body>
+    <input type="number" name="idade" id="soma1">
+    +
+    <input type="number" name="idade2" id="soma2">
+    <input type="button" value="botao" onclick="soma()" onmouseenter="entrar()">
+    <div id="resultado"> resultado </div>
+
+    <div id="background" onmouseenter="entrar()" onmouseout="sair()" onclick="clicar()">vamos ver agora</div>
+    
+
+    <script>
+        var teste = window.document.getElementById('background')//declarar as variaveis antes de fazer as functions
+
+        function entrar(){
+           teste.style.background='pink'
+        }
+        function clicar(){ 
+            teste.style.background='blue'
+        }
+        function sair(){
+            teste.style.background='green'
+        }
+        function soma(){
+            var idade = window.document.getElementById('soma1')
+            var idade2 = window.document.getElementById('soma2')
+            var n1 = Number(idade.value)
+            var n2 = Number(idade2.value)
+            var soma = n1+n2
+            var resul = window.document.getElementById('resultado')
+            
+            resul.innerHTML = `Sua idade é de: ${soma}`
+        }
+        
+
+    </script>
+    
+</body>
+</html>

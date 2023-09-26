@@ -1,0 +1,32 @@
+||<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BANCO DE DADOS LEGAL</title>
+</head>
+<body>
+    <h1>VOCÊ MORA NO BRASIL?</h1>
+    <h3>Qual a sua nacionalidade?</h3>
+    Digite a sua nacionalidade: <input type="text" name="nacio1" id="nacio1">
+    <input type="button" value="confirmar" onclick="resultadoNacionalidade()">
+    <div id="res"></div>
+
+    <script>
+    function resultadoNacionalidade(){
+        var nac1 = window.document.querySelector('input#nacio1')
+        var res = window.document.querySelector('div#res')
+        var nacio = String(nac1.value)
+        res.innerHTML = `Sua nação é do <strong> ${nacio} </strong>`
+
+        if(nacio == 'Brasil'){
+            res.innerHTML += `<p>Você é brasileiro!! Vá cumer baião com o maicon jéckison, vá </p>`
+        } else{
+            res.innerHTML += `<p>Você é estrangeiro!</p>`
+        }
+    }
+        
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,26 @@
+*Lista de estudo básico para manipulação do JavaScript*
+
+Lista para fazer o artigo no LinkedIn sobre o JavaScript
+
+1-  Fundamento
+2 - Variaveis e dados
+3 - Operadores
+4 - Condições
+5 - Repetições
+6 - Arrays
+7 - Functions
+8 - Árvore DOM
+
+Quais são os meus próximos passos com o JavaScript?
+Estudar:
+
+1- IIFE
+2- functions(Existem diversas funcionalidades e functions diferentes)
+3- objetos
+4- modularização
+5- RegEx(expressões regulares)
+6- JSON(armazenar dados localmente)
+7- AJAX(quando você rola a pagina para o final, e ao invés de apareçer para pular pagina continua carregando mais coisas)
+8- NodeJS(faz seus scripts rodarem no servidor)
+9- VueJS
+10- 
